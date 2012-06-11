@@ -36,7 +36,9 @@ source $ZSH/oh-my-zsh.sh
 alias zv="vim $HOME/.zshrc"
 alias zr="source $HOME/.zshrc"
 
-alias gs=gst
+alias as="AUTOFEATURE=true autotest"
+
+alias gs="gst"
 
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin
