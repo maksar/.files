@@ -33,14 +33,13 @@ plugins=(git ruby rails3 bundler)
 
 source $ZSH/oh-my-zsh.sh
 
-alias zv="vim $HOME/.zshrc"
-alias zr="source $HOME/.zshrc"
-
-alias as="AUTOFEATURE=true autotest"
-
-alias gs="gst"
-
 # Customize to your needs...
 export PATH=~/.bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+# Requiring files.
+for file in exports functions aliases reerc; do
+  file="$HOME/.$file"
+  [ -e "$file" ] && source "$file"
+done

@@ -1,0 +1,6 @@
+alias zv="vim $HOME/.zshrc"
+alias zr="source $HOME/.zshrc"
+
+alias as="AUTOFEATURE=true autotest"
+
+alias gs="gst"
