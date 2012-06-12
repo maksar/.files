@@ -39,7 +39,7 @@ export PATH=~/.bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/us
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # Requiring files.
-for file in exports functions aliases reerc; do
+for file in exports functions aliases reerc tmuxrc; do
   file="$HOME/.$file"
   [ -e "$file" ] && source "$file"
 done
