@@ -37,7 +37,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=~/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/local/git/bin
 
 # Requiring files.
-for file in exports functions aliases reerc tmuxrc; do
+for file in exports functions aliases reerc tmuxrc node; do
   file="$HOME/.$file"
   [ -e "$file" ] && source "$file"
 done
