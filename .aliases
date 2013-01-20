@@ -4,3 +4,5 @@ alias zr="source $HOME/.zshrc"
 alias as="AUTOFEATURE=true autotest"
 
 alias gs="gst -sb"
+
+alias sl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl ."
