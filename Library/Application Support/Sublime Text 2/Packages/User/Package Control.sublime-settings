@@ -1,7 +1,12 @@
 {
 	"installed_packages":
 	[
+		"All Autocomplete",
+		"CTags",
+		"Git",
 		"Package Control",
+		"SideBarEnhancements",
+		"SideBarGit",
 		"Theme - Soda"
 	]
 }
