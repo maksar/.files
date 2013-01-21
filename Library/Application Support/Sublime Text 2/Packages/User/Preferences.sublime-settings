@@ -4,5 +4,6 @@
 	[
 		"Vintage"
 	],
-	"theme": "Soda Dark.sublime-theme"
+	"theme": "Soda Dark.sublime-theme",
+	"save_on_focus_lost": true
 }
