@@ -1,4 +1,5 @@
 {
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
 		"All Autocomplete",
@@ -8,6 +9,7 @@
 		"RubyTest",
 		"SideBarEnhancements",
 		"SideBarGit",
-		"Theme - Soda"
+		"Theme - Soda",
+		"Tomorrow Color Schemes"
 	]
 }

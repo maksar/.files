@@ -1,8 +1,11 @@
 [
-	{ "keys": ["f4"], "command": "side_bar_new_file2" },
-	{ "keys": ["f6"], "command": "side_bar_rename" },
-	{ "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" },
+  { "keys": ["f4"], "command": "side_bar_new_file2" },
+  { "keys": ["f6"], "command": "side_bar_rename" },
+  { "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" },
 
-	{ "keys": ["super+n"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
-	{ "keys": ["super+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} }
+  { "keys": ["super+n"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+  { "keys": ["super+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+  
+  { "keys": ["super+]"], "command": "navigate_to_definition" },
+  { "keys": ["super+["], "command": "jump_back" }
 ]
