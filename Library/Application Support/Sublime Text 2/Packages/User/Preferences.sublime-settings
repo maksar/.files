@@ -1,5 +1,7 @@
 {
-  "color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+	"caret_style": "smooth",
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+	"detect_indentation": false,
 	"draw_white_space": "all",
 	"font_face": "Monaco",
 	"font_options":
@@ -7,20 +9,22 @@
 		"subpixel_antialias"
 	],
 	"font_size": 13.0,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"margin": 2,
+	"rulers":
+	[
+		80,
+		120
+	],
 	"save_on_focus_lost": true,
 	"tab_size": 2,
-	"word_wrap": false,
-  "highlight_line": true,
-  "caret_style": "smooth",
-  "rulers": [80, 120],
-  "margin": 2,
-  "trim_trailing_white_space_on_save": true,
-  "use_tab_stops": true,
-  "detect_indentation": false,
 	"theme": "Soda Dark.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": true,
+	"word_wrap": false
 }

@@ -37,7 +37,7 @@ plugins=(git rvm)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=~/.bin:/Users/maksar/.rvm/gems/ruby-1.9.3-p362-railsexpress/bin:/Users/maksar/.rvm/gems/ruby-1.9.3-p362-railsexpress@global/bin:/Users/maksar/.rvm/rubies/ruby-1.9.3-p362-railsexpress/bin:/Users/maksar/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=/usr/local/share/npm/bin:~/.bin:/Users/maksar/.rvm/gems/ruby-1.9.3-p362-railsexpress/bin:/Users/maksar/.rvm/gems/ruby-1.9.3-p362-railsexpress@global/bin:/Users/maksar/.rvm/rubies/ruby-1.9.3-p362-railsexpress/bin:/Users/maksar/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 # Requiring files.
 for file in exports functions aliases reerc tmuxrc node; do

@@ -3,6 +3,8 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"CoffeeCompile",
+		"CoffeeScript",
 		"CTags",
 		"Git",
 		"Package Control",
