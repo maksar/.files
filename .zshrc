@@ -45,3 +45,5 @@ for file in exports functions aliases reerc tmuxrc node; do
   [ -e "$file" ] && source "$file"
 done
 
+# Language
+export LANG=en_US.UTF-8
