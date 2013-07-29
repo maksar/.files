@@ -8,7 +8,7 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 13.0,
+	"font_size": 15.0,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -21,10 +21,11 @@
 		120
 	],
 	"save_on_focus_lost": true,
+	"spell_check": true,
 	"tab_size": 2,
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
+	"trim_trailing_white_space_on_save": false,
 	"use_tab_stops": true,
-	"word_wrap": false
+	"word_wrap": true
 }

@@ -9,10 +9,12 @@
 		"Cucumber",
 		"Git",
 		"Package Control",
+		"ruby-slim.tmbundle",
 		"RubyTest",
 		"SideBarEnhancements",
 		"SideBarGit",
 		"Theme - Soda",
-		"Tomorrow Color Schemes"
+		"Tomorrow Color Schemes",
+		"TrailingSpaces"
 	]
 }
