@@ -32,12 +32,12 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git rvm)
+plugins=(git rbenv)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/share/npm/bin:~/.bin:/Users/maksar/.rvm/gems/ruby-1.9.3-p362-railsexpress/bin:/Users/maksar/.rvm/gems/ruby-1.9.3-p362-railsexpress@global/bin:/Users/maksar/.rvm/rubies/ruby-1.9.3-p362-railsexpress/bin:/Users/maksar/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=/usr/local/share/npm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 # Requiring files.
 for file in exports functions aliases reerc tmuxrc node; do
@@ -50,3 +50,5 @@ export LANG=en_US.UTF-8
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+eval "$(rbenv init -)"

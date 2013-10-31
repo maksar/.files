@@ -3,18 +3,29 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"Bootstrap 3 Snippets",
 		"CoffeeCompile",
 		"CoffeeScript",
 		"CTags",
 		"Cucumber",
+		"ExportHtml",
+		"Gherkin (Cucumber) Formatter",
 		"Git",
+		"HTML Snippets",
+		"LESS",
 		"Package Control",
+		"Rails I18n Helper",
+		"Rails Partial",
+		"Ruby on Rails snippets",
 		"ruby-slim.tmbundle",
 		"RubyTest",
 		"SideBarEnhancements",
 		"SideBarGit",
+		"SublimeXiki",
 		"Theme - Soda",
 		"Tomorrow Color Schemes",
-		"TrailingSpaces"
+		"TrailingSpaces",
+		"Twitter Bootstrap ClassNames Completions",
+		"Twitter Bootstrap Snippets"
 	]
 }
